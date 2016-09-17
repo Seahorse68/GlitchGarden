@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
     {
         if (autoLoadNextLevelAfter <= 0)
         {
-            //print("Level auto load disabled");
+            Debug.Log("Level auto load disabled, use a positive number in seconds");
         }
         else
         {
