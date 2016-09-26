@@ -26,7 +26,7 @@ public class Lizard : MonoBehaviour
 
         GameObject obj = collider.gameObject;
 
-        if (!obj.GetComponent<Defenders>())
+        if (!obj.GetComponent<Defender>())
         {
             return;
         }
